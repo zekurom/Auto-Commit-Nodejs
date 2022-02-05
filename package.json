@@ -1,0 +1,23 @@
+{
+  "name": "auto-commit-nodejs",
+  "version": "1.0.0",
+  "description": "Auto commit git changes to local repositories",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zekurom/Auto-Commit-Nodejs.git"
+  },
+  "author": "Zekurom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zekurom/Auto-Commit-Nodejs/issues"
+  },
+  "homepage": "https://github.com/zekurom/Auto-Commit-Nodejs#readme",
+  "dependencies": {
+    "node-notifier": "^10.0.1"
+  }
+}
